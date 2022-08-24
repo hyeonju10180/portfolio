@@ -243,7 +243,7 @@ nav ul {
     display: inline-block;
     padding-left: 0;
     list-style: none;
-    padding: 20px;
+    padding: 20px 0;
     margin-bottom: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -251,7 +251,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 10px;
+    margin: 9px;
 }
 
 nav li a {
@@ -294,6 +294,7 @@ a.active {
     background-image: url(../img/main.jpg);
     background-size: cover;
     height: 100vh;
+    background-position: center center !important;
 }
 
 .table-cell {
@@ -304,7 +305,15 @@ a.active {
 .disply-table {
     display: table;
     height: 100vh;
+    margin: auto;
+    color: rgb(59, 43, 43);
 }
+
+.disply-table h4 {
+    color: rgb(59, 43, 43);
+}
+
+
 
 
 /* about section
